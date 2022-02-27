@@ -47,9 +47,9 @@ export const Header: FC = () => {
       <div className="">
         <nav>
           <ul className="flex">
-            <HeaderLink child="about" href="/about"></HeaderLink>
-            <HeaderLink child="blog" href="/blog"></HeaderLink>
-            <HeaderLink child="dashboard" href="/dashboard"></HeaderLink>
+            <HeaderLink child="About" href="/about"></HeaderLink>
+            <HeaderLink child="Blog" href="/blog"></HeaderLink>
+            <HeaderLink child="Dashboard" href="/dashboard"></HeaderLink>
           </ul>
         </nav>
       </div>
