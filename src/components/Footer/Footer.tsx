@@ -38,7 +38,7 @@ const FooterIconLink: FC<FooterProps> = ({ children, href }) => {
 
 export const Footer: FC = () => {
   return (
-    <footer 
+    <footer
       className= {`
         w-full
         max-w-3xl
@@ -58,6 +58,7 @@ export const Footer: FC = () => {
             <FooterLink href="/history">History</FooterLink>
             <FooterLink href="/dashbord">Dashborad</FooterLink>
             <FooterLink href="/social">Social</FooterLink>
+            <FooterLink href="/colection">Collection</FooterLink>
           </ul>
         </nav>
       </div>
