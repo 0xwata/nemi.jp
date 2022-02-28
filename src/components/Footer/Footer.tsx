@@ -53,7 +53,7 @@ export const Footer: FC = () => {
           `}>
             <FooterLink href="/about">About</FooterLink>
             <FooterLink href="/blog">Blog</FooterLink>
-            <FooterLink href="/checklsit">CheckList</FooterLink>
+            <FooterLink href="/checklist">CheckList</FooterLink>
             <FooterLink href="/products">Products</FooterLink>
             <FooterLink href="/history">History</FooterLink>
             <FooterLink href="/dashbord">Dashborad</FooterLink>
