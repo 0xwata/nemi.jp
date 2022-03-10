@@ -3,6 +3,7 @@
 import type { FC } from "react";
 import Link from "next/link";
 import type { LinkProps  } from "next/link";
+import { ThemeSwitchButton } from "./ThemeSwitchButton";
 
 interface HeaderProps extends LinkProps {
   child: string,
@@ -44,7 +45,10 @@ export const Header: FC = () => {
           </span>
         {/* </Link> */}
       </div>
-      <div className="">
+      <div className={`
+        flex
+        justify-between
+      `}>
         <nav>
           <ul className="flex">
             <HeaderLink child="About" href="/about"></HeaderLink>
@@ -52,6 +56,7 @@ export const Header: FC = () => {
             <HeaderLink child="Dashboard" href="/dashboard"></HeaderLink>
           </ul>
         </nav>
+        <ThemeSwitchButton />
       </div>
     </header>
   );

@@ -5,6 +5,10 @@ import styles from '../../styles/Home.module.css'
 
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
+import { Headline } from '@/components/Headline'
+import { Products } from '@/components/Products'
+import { History } from '@/components/History'
+import { Life } from '@/components/Life'
 
 const Home: NextPage = () => {
   return (
@@ -17,6 +21,10 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <Header />
+        <Headline />
+        <Products />
+        <History />
+        <Life />
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
